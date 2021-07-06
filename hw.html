@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="hw.css">
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.css">
+</head>
+
+<body class="window">
+    <div id="leftside" class="leftside"></div>
+    <div class="main row">
+        <p class="sebet">Sebet</p>
+        <input class="txt" type="text">
+
+        <button class="plus">+</button>
+    </div>
+    <script src="../scriptler/jquery.js"></script>
+    <script src="/Bootstrap/bootstrap.js"></script>
+    <script src="datasors.js"></script>
+    <script src="hw.js"></script>
+    <script>
+        $('.leftside').append(leftBarHtml());
+        fillMain();
+        document.getElementById("leftside").innerHTML = leftBarHtml();
+        //document.getElementById("main").innerHTML = card(terevez, kartof, 2, 2);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+.window {
+    height: 98%;
+    border: 1px solid;
+    display: flex;
+}
+
+.leftside {
+    overflow: auto;
+    border: 1px solid;
+    width: 20%;
+}
+
+.main {
+    overflow: auto;
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    margin: 0!important;
+    position: relative;
+}
+
+img {
+    height: 100%;
+}
+
+.image {
+    margin: auto;
+    margin-top: 30px;
+    height: 200px;
+    width: 160px;
+    border: 1px solid;
+}
+
+.card {
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.left {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3.card {
+        -ms-flex: 0 0 22%;
+        flex: 0 0 22%;
+        max-width: 22%;
+    }
+}
+
+button {
+    overflow: hidden;
+}
+
+.edit {
+    justify-content: left;
+}
+
+.add {
+    justify-self: right;
+}
+
+.plus {
+    background: brown;
+    border-radius: 30px;
+    color: white;
+    position: fixed;
+    z-index: 10;
+    bottom: 38px;
+    right: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.sebet {
+    position: fixed;
+    z-index: 10;
+    bottom: 96px;
+    right: 23px;
+    border: 1px solid;
+    padding-left: 0px;
+    padding-left: 0px;
+    width: 82px;
+    justify-content: center;
+}
+
+.edit {
+    justify-content: left;
+}
+
+.add {
+    justify-content: right;
+}
+
+.buttondiv {
+    display: flex;
+}
+
+.txt {
+    border-color: black;
+    position: fixed;
+    z-index: 10;
+    bottom: 72px;
+    right: 21px;
+    width: 100px;
+}
